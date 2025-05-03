@@ -10,7 +10,7 @@ const Footer = () => {
           <div>
             <div className="flex items-center mb-4">
               <Globe size={28} className="text-primary-300 mr-2" />
-              <h3 className="font-serif text-xl font-bold">ISE Consulting</h3>
+              <h3 className="font-serif text-xl font-bold">ISE Consulting Co., Ltd</h3>
             </div>
             <p className="text-gray-400 mb-4">
               Lao-managed consulting company providing environment, natural resource and social services across all sectors of development projects.
