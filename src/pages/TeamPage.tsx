@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import ContactForm from '../components/ContactForm';
+// import ContactForm from '../components/ContactForm';
 
 interface TeamMember {
   id: number;
@@ -310,7 +310,7 @@ const TeamPage = () => {
       </section>
 
       {/* Join Our Team CTA */}
-      <section className="py-16 bg-primary-600 relative overflow-hidden">
+      {/* <section className="py-16 bg-primary-600 relative overflow-hidden">
         <div className="absolute inset-0">
           <svg className="absolute bottom-0 left-0 transform translate-y-1/3" width="600" height="600" fill="none" viewBox="0 0 600 600">
             <path fill="rgba(255, 255, 255, 0.05)" d="M300 0C133.6 0 0 133.6 0 300s133.6 300 300 300 300-133.6 300-300S466.4 0 300 0zm0 500c-110.5 0-200-89.5-200-200s89.5-200 200-200 200 89.5 200 200-89.5 200-200 200z" />
@@ -320,7 +320,7 @@ const TeamPage = () => {
           </svg>
         </div>
 
-        {/* <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+        <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
           <div className="max-w-4xl mx-auto text-center">
             <h2 className="text-3xl font-serif font-bold text-white mb-4">
               Interested in joining our team?
@@ -335,10 +335,10 @@ const TeamPage = () => {
               Get in Touch
             </a>
           </div>
-        </div> */}
-      </section>
+        </div>
+      </section> */}
 
-      <ContactForm />
+      {/* <ContactForm /> */}
     </div>
   );
 };

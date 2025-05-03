@@ -44,7 +44,7 @@ const Navbar = () => {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center">
           <NavLink to="/" className="flex items-center space-x-2">
-            <Globe 
+            {/* <Globe 
               size={36} 
               className="text-primary-500" 
               strokeWidth={1.5} 
@@ -54,7 +54,8 @@ const Navbar = () => {
               <span className="hidden md:inline-block text-sm text-gray-600 ml-2">
                 Inclusive Social and Environment
               </span>
-            </div>
+            </div> */}
+            <img className="w-32 h-auto" src="src/assets/images/ISE_Logo.png" alt="ISE Logo"  />
           </NavLink>
 
           {/* Desktop Navigation */}
