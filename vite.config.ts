@@ -7,4 +7,8 @@ export default defineConfig({
   optimizeDeps: {
     exclude: ['lucide-react'],
   },
+  server: {
+    host: '0.0.0.0',
+    allowedHosts: ['image.phouthathone.com', "*"], // Add this line to allow the host
+  },
 });
