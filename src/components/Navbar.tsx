@@ -55,7 +55,7 @@ const Navbar = () => {
                 Inclusive Social and Environment
               </span>
             </div> */}
-            <img className="w-32 h-auto" src="src/assets/images/ISE_Logo.png" alt="ISE Logo"  />
+            <img className="w-32 h-auto" src="https://image.phoudthasone.com/api/v1/buckets/image/objects/download?preview=true&prefix=ISE_Logo.png&version_id=null" alt="ISE Logo"  />
           </NavLink>
 
           {/* Desktop Navigation */}
