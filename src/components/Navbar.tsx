@@ -2,10 +2,13 @@ import React, { useState, useEffect } from 'react';
 import { NavLink } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { Globe, Menu, X } from 'lucide-react';
+import { useTranslation } from 'react-i18next';
+import LanguageSwitcher from './LanguageSwitcher';
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
+  const { t } = useTranslation();
 
   useEffect(() => {
     const handleScroll = () => {
@@ -26,11 +29,11 @@ const Navbar = () => {
   };
 
   const navLinks = [
-    { to: '/', text: 'Home' },
-    { to: '/services', text: 'Services' },
-    { to: '/team', text: 'Our Team' },
-    { to: '/projects', text: 'Projects' },
-    { to: '/contact', text: 'Contact' },
+    { to: '/', text: t('nav.home') },
+    { to: '/services', text: t('nav.services') },
+    { to: '/team', text: t('nav.team') },
+    { to: '/projects', text: t('nav.projects') },
+    { to: '/contact', text: t('nav.contact') },
   ];
 
   return (
@@ -43,7 +46,7 @@ const Navbar = () => {
     >
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center">
-          <NavLink to="/" className="flex items-center space-x-2">
+        <NavLink to="/" className="flex items-center space-x-2">
             {/* <Globe 
               size={36} 
               className="text-primary-500" 
@@ -59,7 +62,7 @@ const Navbar = () => {
           </NavLink>
 
           {/* Desktop Navigation */}
-          <nav className="hidden md:flex space-x-8">
+          <nav className="hidden md:flex items-center space-x-8">
             {navLinks.map((link) => (
               <NavLink
                 key={link.to}
@@ -75,16 +78,20 @@ const Navbar = () => {
                 {link.text}
               </NavLink>
             ))}
+            <LanguageSwitcher />
           </nav>
 
           {/* Mobile Menu Button */}
-          <button
-            onClick={toggleMenu}
-            className="md:hidden text-gray-700 focus:outline-none"
-            aria-label="Toggle menu"
-          >
-            {isMenuOpen ? <X size={24} /> : <Menu size={24} />}
-          </button>
+          <div className="md:hidden flex items-center space-x-4">
+            <LanguageSwitcher />
+            <button
+              onClick={toggleMenu}
+              className="text-gray-700 focus:outline-none"
+              aria-label="Toggle menu"
+            >
+              {isMenuOpen ? <X size={24} /> : <Menu size={24} />}
+            </button>
+          </div>
         </div>
       </div>
 

@@ -1,0 +1,119 @@
+{
+  "common": {
+    "readMore": "Read More",
+    "viewAll": "View All",
+    "contactUs": "Contact Us",
+    "getInTouch": "Get in Touch",
+    "learnMore": "Learn More",
+    "viewDetails": "View Details",
+    "sendMessage": "Send Message",
+    "viewAllProjects": "View All Projects",
+    "viewAllServices": "View All Services",
+    "meetOurTeam": "Meet Our Full Team"
+  },
+  "nav": {
+    "home": "Home",
+    "services": "Services",
+    "team": "Our Team",
+    "projects": "Projects",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "Inclusive Social and Environment Consulting",
+    "subtitle": "A Lao-managed consulting company providing quality environment, natural resource and social services across all sectors of development projects.",
+    "cta": {
+      "services": "Our Services",
+      "contact": "Contact Us"
+    }
+  },
+  "about": {
+    "title": "About ISE",
+    "subtitle": "Lao-managed consulting excellence since 2020",
+    "description": "Inclusive Social and Environment Consulting Co., Ltd (ISE) is a Lao-managed consulting company established in 2020 by a group of specialists with diverse expertise in civil engineering, environment, social development, natural resources, geographic information system (GIS), and project management.",
+    "description2": "Our team brings over 20 years of experience working with national and international organizations across various development projects. ISE is committed to providing quality consulting services to assist our clients in delivering comprehensive environment, natural resource, and social assessments with optimum design options, cost efficiency, risk management, and compliance with project requirements."
+  },
+  "services": {
+    "title": "Our Services",
+    "subtitle": "ISE provides comprehensive consulting services across environmental, natural resource, and social sectors for development projects throughout Lao PDR and beyond.",
+    "environmental": {
+      "title": "Environmental Services",
+      "description": "Comprehensive environmental assessments, monitoring, and management plans for development projects.",
+      "items": [
+        "Initial Environment Examination (IEE)",
+        "Environment Planning and Management",
+        "Environment Impacts Assessment",
+        "Implementation of Environment Monitoring",
+        "Capacity building on environmental planning"
+      ]
+    },
+    "natural": {
+      "title": "Natural Resources",
+      "description": "Expert management of water resources, climate change adaptation, and land use planning services.",
+      "items": [
+        "Integrated Water Resource Management",
+        "Disasters Impact and Risk Assessment",
+        "Climate Change Adaptation and Mitigation",
+        "Hydrology-Hydraulic and Meteorology Analysis",
+        "Land Use Planning and Forest Cover Change Detection"
+      ]
+    },
+    "social": {
+      "title": "Social Development",
+      "description": "Social assessments, resettlement planning, and community development initiatives for project success.",
+      "items": [
+        "Social Impacts Assessment",
+        "Implementation of Social Monitoring",
+        "Resettlement planning and implementation",
+        "Social and Economic Survey and data analysis",
+        "Livelihood Improvement and Community Development"
+      ]
+    }
+  },
+  "team": {
+    "title": "Our Expert Team",
+    "subtitle": "ISE's team consists of Lao National key staff and consultants with multidisciplinary skills and backgrounds, bringing extensive experience in social, environmental, and natural resource management.",
+    "joinTeam": {
+      "title": "Interested in joining our team?",
+      "description": "We're always looking for talented individuals who are passionate about sustainable development and environmental consulting."
+    }
+  },
+  "projects": {
+    "title": "Featured Projects",
+    "subtitle": "Explore our portfolio of impactful projects where we've delivered comprehensive environmental and social consulting services across Lao PDR.",
+    "filters": {
+      "all": "All Projects",
+      "hydropower": "Hydropower",
+      "renewable": "Renewable Energy",
+      "urban": "Urban Development",
+      "social": "Social Development"
+    }
+  },
+  "contact": {
+    "title": "Contact Us",
+    "subtitle": "Get in touch with our team to discuss your consulting needs or learn more about our services.",
+    "form": {
+      "name": "Full Name",
+      "email": "Email Address",
+      "subject": "Subject",
+      "message": "Message",
+      "sending": "Sending...",
+      "success": "Thank You!",
+      "successMessage": "Your message has been successfully sent. We will get back to you as soon as possible."
+    },
+    "info": {
+      "address": "Address",
+      "phone": "Phone",
+      "email": "Email",
+      "hours": "Business Hours",
+      "workdays": "Monday to Friday: 8:00 AM - 5:00 PM",
+      "weekend": "Saturday to Sunday: Closed"
+    }
+  },
+  "footer": {
+    "description": "Lao-managed consulting company providing environment, natural resource and social services across all sectors of development projects.",
+    "quickLinks": "Quick Links",
+    "services": "Services",
+    "contact": "Contact Us",
+    "copyright": "© {year} ISE Consulting Co., Ltd. All rights reserved."
+  }
+}

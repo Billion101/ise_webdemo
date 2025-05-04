@@ -135,7 +135,7 @@ const ContactPage = () => {
       </section>
 
       {/* Contact Form Section */}
-      {/* <ContactForm /> */}
+      <ContactForm />
 
       {/* FAQ Section */}
       <section className="py-20 bg-gray-50">

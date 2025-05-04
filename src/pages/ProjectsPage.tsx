@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
-// import ContactForm from '../components/ContactForm';
+import ContactForm from '../components/ContactForm';
 
 // Define project interface
 interface Project {
@@ -392,7 +392,7 @@ const ProjectsPage = () => {
         </div>
       </section>
 
-      {/* <ContactForm /> */}
+      <ContactForm />
     </div>
   );
 };
