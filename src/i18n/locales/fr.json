@@ -1,0 +1,119 @@
+{
+  "common": {
+    "readMore": "Lire la suite",
+    "viewAll": "Voir tout",
+    "contactUs": "Contactez-nous",
+    "getInTouch": "Entrer en contact",
+    "learnMore": "En savoir plus",
+    "viewDetails": "Voir les détails",
+    "sendMessage": "Envoyer le message",
+    "viewAllProjects": "Voir tous les projets",
+    "viewAllServices": "Voir tous les services",
+    "meetOurTeam": "Rencontrer toute notre équipe"
+  },
+  "nav": {
+    "home": "Accueil",
+    "services": "Services",
+    "team": "Notre équipe",
+    "projects": "Projets",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "Conseil Social et Environnemental Inclusif",
+    "subtitle": "Une société de conseil gérée par le Laos fournissant des services de qualité en matière d'environnement, de ressources naturelles et de services sociaux dans tous les secteurs des projets de développement.",
+    "cta": {
+      "services": "Nos Services",
+      "contact": "Contactez-nous"
+    }
+  },
+  "about": {
+    "title": "À propos d'ISE",
+    "subtitle": "Excellence en conseil gérée par le Laos depuis 2020",
+    "description": "Inclusive Social and Environment Consulting Co., Ltd (ISE) est une société de conseil gérée par le Laos créée en 2020 par un groupe de spécialistes possédant une expertise diversifiée en génie civil, environnement, développement social, ressources naturelles, système d'information géographique (SIG) et gestion de projet.",
+    "description2": "Notre équipe possède plus de 20 ans d'expérience de travail avec des organisations nationales et internationales dans divers projets de développement. ISE s'engage à fournir des services de conseil de qualité pour aider nos clients à réaliser des évaluations complètes de l'environnement, des ressources naturelles et sociales avec des options de conception optimales, une efficacité des coûts, une gestion des risques et la conformité aux exigences du projet."
+  },
+  "services": {
+    "title": "Nos Services",
+    "subtitle": "ISE fournit des services de conseil complets dans les secteurs environnementaux, des ressources naturelles et sociaux pour les projets de développement dans tout le Laos et au-delà.",
+    "environmental": {
+      "title": "Services Environnementaux",
+      "description": "Évaluations environnementales complètes, surveillance et plans de gestion pour les projets de développement.",
+      "items": [
+        "Examen environnemental initial (EEI)",
+        "Planification et gestion environnementale",
+        "Évaluation des impacts environnementaux",
+        "Mise en œuvre du suivi environnemental",
+        "Renforcement des capacités en planification environnementale"
+      ]
+    },
+    "natural": {
+      "title": "Ressources Naturelles",
+      "description": "Gestion experte des ressources en eau, adaptation au changement climatique et services de planification de l'utilisation des terres.",
+      "items": [
+        "Gestion intégrée des ressources en eau",
+        "Évaluation des impacts et des risques de catastrophes",
+        "Adaptation et atténuation du changement climatique",
+        "Analyse hydrologique-hydraulique et météorologique",
+        "Planification de l'utilisation des terres et détection des changements du couvert forestier"
+      ]
+    },
+    "social": {
+      "title": "Développement Social",
+      "description": "Évaluations sociales, planification de la réinstallation et initiatives de développement communautaire pour le succès des projets.",
+      "items": [
+        "Évaluation des impacts sociaux",
+        "Mise en œuvre du suivi social",
+        "Planification et mise en œuvre de la réinstallation",
+        "Enquête sociale et économique et analyse des données",
+        "Amélioration des moyens de subsistance et développement communautaire"
+      ]
+    }
+  },
+  "team": {
+    "title": "Notre Équipe d'Experts",
+    "subtitle": "L'équipe d'ISE est composée de personnel clé et de consultants nationaux lao aux compétences et aux parcours multidisciplinaires, apportant une vaste expérience en gestion sociale, environnementale et des ressources naturelles.",
+    "joinTeam": {
+      "title": "Intéressé à rejoindre notre équipe ?",
+      "description": "Nous recherchons toujours des personnes talentueuses passionnées par le développement durable et le conseil environnemental."
+    }
+  },
+  "projects": {
+    "title": "Projets Phares",
+    "subtitle": "Découvrez notre portefeuille de projets impactants où nous avons fourni des services de conseil environnemental et social complets à travers le Laos.",
+    "filters": {
+      "all": "Tous les Projets",
+      "hydropower": "Hydroélectricité",
+      "renewable": "Énergie Renouvelable",
+      "urban": "Développement Urbain",
+      "social": "Développement Social"
+    }
+  },
+  "contact": {
+    "title": "Contactez-nous",
+    "subtitle": "Contactez notre équipe pour discuter de vos besoins en conseil ou en savoir plus sur nos services.",
+    "form": {
+      "name": "Nom Complet",
+      "email": "Adresse Email",
+      "subject": "Sujet",
+      "message": "Message",
+      "sending": "Envoi en cours...",
+      "success": "Merci !",
+      "successMessage": "Votre message a été envoyé avec succès. Nous vous répondrons dans les plus brefs délais."
+    },
+    "info": {
+      "address": "Adresse",
+      "phone": "Téléphone",
+      "email": "Email",
+      "hours": "Heures d'Ouverture",
+      "workdays": "Lundi à Vendredi : 8h00 - 17h00",
+      "weekend": "Samedi et Dimanche : Fermé"
+    }
+  },
+  "footer": {
+    "description": "Société de conseil gérée par le Laos fournissant des services environnementaux, de ressources naturelles et sociaux dans tous les secteurs des projets de développement.",
+    "quickLinks": "Liens Rapides",
+    "services": "Services",
+    "contact": "Contactez-nous",
+    "copyright": "© {year} ISE Consulting Co., Ltd. Tous droits réservés."
+  }
+}

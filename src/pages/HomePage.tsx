@@ -53,9 +53,8 @@ const HomePage = () => {
               variants={fadeIn}
             >
               <img 
-                // src="https://images.pexels.com/photos/3184296/pexels-photo-3184296.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" 
-                src="https://scontent.fvte2-2.fna.fbcdn.net/v/t39.30808-6/494695601_2088408511628843_8499552731174582928_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeFeNFiioROEnyAN5wpUqy5RsDxc7P-swtuwPFzs_6zC23O86X2fMGZSPgzvjbU1LlwlTAg51PIzbIGuHOHUc023&_nc_ohc=ZHxhnjWR2jIQ7kNvwEnk_81&_nc_oc=AdkeCxihF1o5b5gqK-CqljGJiyXsGcsh-D0ZDGPTEKwQbzH_QsAH43SX7F961fAQzPE&_nc_zt=23&_nc_ht=scontent.fvte2-2.fna&_nc_gid=zDiLFUa3NQR2ZVTFV4Mo3Q&oh=00_AfHlg5Uj3lPA8BZSv6e6WNdqSJXskQoSIqPZ0kfy5PzScg&oe=681BFD70" 
-                alt="About ISE" 
+                src="https://scontent.fvte2-2.fna.fbcdn.net/v/t39.30808-6/494695601_2088408511628843_8499552731174582928_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeFeNFiioROEnyAN5wpUqy5RsDxc7P-swtuwPFzs_6zC23O86X2fMGZSPgzvjbU1LlwlTAg51PIzbIGuHOHUc023&_nc_ohc=sdZbdkz0rWcQ7kNvwEtao0M&_nc_oc=AdmGP0fXTPnon8bR1l8XlFs4xFl4AmY1T6tI8q-B1zX0kZVQoD4rmBXh-YPnyiUQrWo&_nc_zt=23&_nc_ht=scontent.fvte2-2.fna&_nc_gid=aT30iZ2Js6X3_1VIXkoFSw&oh=00_AfIpwokE-0zPNjgpun-o6f-sJFSAmlxJrwGn95M6cbN2Vw&oe=6824FFB0" 
+                alt="Team meeting" 
                 className="rounded-lg shadow-xl w-full h-auto object-cover"
               />
             </motion.div>
