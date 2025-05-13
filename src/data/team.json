@@ -1,0 +1,40 @@
+{
+  "members": [
+    {
+      "id": 1,
+      "name": "Vongchanh Indavong",
+      "position": "Managing Director",
+      "imageKey": "vongchanh",
+      "description": "Vongchanh has a Master's Degree in International Development from the Ohio University, USA and Bachelor Degree in Civil Engineering from National University of Laos. Vongchanh has extensive experience in leading social and environmental management and monitoring of hydropower projects. Vongchanh also works as a consultant for various development projects for ADB, UNDP, and World Bank cover agriculture, road and water supply.",
+      "category": "management",
+      "education": [
+        "Master's Degree in International Development - Ohio University, USA",
+        "Bachelor Degree in Civil Engineering - National University of Laos"
+      ],
+      "expertise": [
+        "Social and Environmental Management",
+        "Hydropower Projects",
+        "Development Consulting",
+        "Project Management"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Surapha Viravong",
+      "position": "Social and Resettlement",
+      "imageKey": "surapha",
+      "description": "Surapha Viravong has a Master's Degree in Business and Administration from the University of Technology of Sydney and Bachelor degree in Civil Engineering from the Faculty of Engineering of National University of Laos. Surapha has more than 20 years working experience in various sector work including leading role in social and environment management and monitoring, and resettlement of hydropower projects, livelihood improvment, land use planning, and community development.",
+      "category": "social",
+      "education": [
+        "Master's Degree in Business Administration - University of Technology Sydney",
+        "Bachelor Degree in Civil Engineering - National University of Laos"
+      ],
+      "expertise": [
+        "Social Impact Assessment",
+        "Resettlement Planning",
+        "Community Development",
+        "Land Use Planning"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "hero": {
+    "background": "https://images.pexels.com/photos/9486607/pexels-photo-9486607.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+  },
+  "about": {
+    "teamMeeting": "https://images.pexels.com/photos/3184296/pexels-photo-3184296.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+  },
+  "services": {
+    "background": "https://images.pexels.com/photos/3184292/pexels-photo-3184292.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    "items": {
+      "environmental": "https://images.pexels.com/photos/1072824/pexels-photo-1072824.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "naturalResources": "https://images.pexels.com/photos/1001682/pexels-photo-1001682.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "socialDevelopment": "https://images.pexels.com/photos/3184291/pexels-photo-3184291.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+    }
+  },
+  "team": {
+    "background": "https://images.pexels.com/photos/3184293/pexels-photo-3184293.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    "members": {
+      "vongchanh": "https://images.pexels.com/photos/2381069/pexels-photo-2381069.jpeg?auto=compress&cs=tinysrgb&w=800",
+      "surapha": "https://images.pexels.com/photos/5717628/pexels-photo-5717628.jpeg?auto=compress&cs=tinysrgb&w=800",
+      "sengdavanh": "https://images.pexels.com/photos/7473019/pexels-photo-7473019.jpeg?auto=compress&cs=tinysrgb&w=800",
+      "kanya": "https://images.pexels.com/photos/5212317/pexels-photo-5212317.jpeg?auto=compress&cs=tinysrgb&w=800",
+      "chanthavy": "https://images.pexels.com/photos/5384445/pexels-photo-5384445.jpeg?auto=compress&cs=tinysrgb&w=800",
+      "kongkeo": "https://images.pexels.com/photos/7490210/pexels-photo-7490210.jpeg?auto=compress&cs=tinysrgb&w=800",
+      "khonevilay": "https://images.pexels.com/photos/8961010/pexels-photo-8961010.jpeg?auto=compress&cs=tinysrgb&w=800",
+      "misa": "https://images.pexels.com/photos/7148384/pexels-photo-7148384.jpeg?auto=compress&cs=tinysrgb&w=800",
+      "khamkeng": "https://images.pexels.com/photos/6326377/pexels-photo-6326377.jpeg?auto=compress&cs=tinysrgb&w=800"
+    }
+  },
+  "projects": {
+    "background": "https://images.pexels.com/photos/1486861/pexels-photo-1486861.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    "items": {
+      "namLong": {
+        "main": "https://images.pexels.com/photos/414837/pexels-photo-414837.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+        "gallery": [
+          "https://images.pexels.com/photos/1578749/pexels-photo-1578749.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+          "https://images.pexels.com/photos/4173198/pexels-photo-4173198.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+        ]
+      },
+      "monsoonWind": {
+        "main": "https://images.pexels.com/photos/2121665/pexels-photo-2121665.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+        "gallery": [
+          "https://images.pexels.com/photos/1108271/pexels-photo-1108271.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+          "https://images.pexels.com/photos/163458/wind-turbine-electricity-eco-environment-163458.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+        ]
+      },
+      "mekongCorridor": {
+        "main": "https://images.pexels.com/photos/2219035/pexels-photo-2219035.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+        "gallery": [
+          "https://images.pexels.com/photos/599722/pexels-photo-599722.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+          "https://images.pexels.com/photos/12166533/pexels-photo-12166533.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+        ]
+      },
+      "ruralPoverty": {
+        "main": "https://images.pexels.com/photos/2387343/pexels-photo-2387343.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+        "gallery": [
+          "https://images.pexels.com/photos/1888652/pexels-photo-1888652.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+          "https://images.pexels.com/photos/4498361/pexels-photo-4498361.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+        ]
+      },
+      "theunHinboun": {
+        "main": "https://images.pexels.com/photos/2040756/pexels-photo-2040756.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+        "gallery": [
+          "https://images.pexels.com/photos/1025562/pexels-photo-1025562.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+          "https://images.pexels.com/photos/221035/pexels-photo-221035.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+        ]
+      },
+      "namLongUpper": {
+        "main": "https://images.pexels.com/photos/4946756/pexels-photo-4946756.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+        "gallery": [
+          "https://images.pexels.com/photos/13876470/pexels-photo-13876470.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+          "https://images.pexels.com/photos/5946424/pexels-photo-5946424.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+        ]
+      }
+    }
+  },
+  "contact": {
+    "background": "https://images.pexels.com/photos/7176030/pexels-photo-7176030.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+  }
+}

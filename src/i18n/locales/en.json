@@ -9,7 +9,9 @@
     "sendMessage": "Send Message",
     "viewAllProjects": "View All Projects",
     "viewAllServices": "View All Services",
-    "meetOurTeam": "Meet Our Full Team"
+    "meetOurTeam": "Meet Our Full Team",
+    "startConversation": "Start a Conversation",
+    "scrollDown": "Scroll Down"
   },
   "nav": {
     "home": "Home",
@@ -30,7 +32,12 @@
     "title": "About ISE",
     "subtitle": "Lao-managed consulting excellence since 2020",
     "description": "Inclusive Social and Environment Consulting Co., Ltd (ISE) is a Lao-managed consulting company established in 2020 by a group of specialists with diverse expertise in civil engineering, environment, social development, natural resources, geographic information system (GIS), and project management.",
-    "description2": "Our team brings over 20 years of experience working with national and international organizations across various development projects. ISE is committed to providing quality consulting services to assist our clients in delivering comprehensive environment, natural resource, and social assessments with optimum design options, cost efficiency, risk management, and compliance with project requirements."
+    "description2": "Our team brings over 20 years of experience working with national and international organizations across various development projects. ISE is committed to providing quality consulting services to assist our clients in delivering comprehensive environment, natural resource, and social assessments with optimum design options, cost efficiency, risk management, and compliance with project requirements.",
+    "stats": {
+      "experience": "Years of Experience",
+      "projects": "Completed Projects",
+      "experts": "Experts & Specialists"
+    }
   },
   "services": {
     "title": "Our Services",
@@ -43,7 +50,8 @@
         "Environment Planning and Management",
         "Environment Impacts Assessment",
         "Implementation of Environment Monitoring",
-        "Capacity building on environmental planning"
+        "Capacity building on environmental planning",
+        "Waste Management (Project and community waste)"
       ]
     },
     "natural": {
@@ -54,7 +62,8 @@
         "Disasters Impact and Risk Assessment",
         "Climate Change Adaptation and Mitigation",
         "Hydrology-Hydraulic and Meteorology Analysis",
-        "Land Use Planning and Forest Cover Change Detection"
+        "Land Use Planning and Forest Cover Change Detection",
+        "Aerial Mapping and Remote Sensing Technology"
       ]
     },
     "social": {
@@ -67,25 +76,104 @@
         "Social and Economic Survey and data analysis",
         "Livelihood Improvement and Community Development"
       ]
+    },
+    "esia": {
+      "title": "ESIA and IEE Preparation",
+      "description": "Expert preparation of Environmental and Social Impact Assessments and Initial Environmental Examinations.",
+      "items": [
+        "Comprehensive environmental and social baseline studies",
+        "Stakeholder consultation and engagement",
+        "Impact identification and assessment",
+        "Mitigation measures development",
+        "Environmental and Social Management Plans",
+        "Compliance with national and international standards",
+        "Monitoring plan development"
+      ]
+    },
+    "monitoring": {
+      "title": "Project Monitoring & Evaluation",
+      "description": "Independent monitoring and evaluation services for development projects.",
+      "items": [
+        "Independent External Social Safeguard monitoring",
+        "Project implementation process evaluation",
+        "Resettlement Plan implementation monitoring",
+        "Public consultation and awareness assessment",
+        "Compensation payment verification",
+        "Grievance resolution support"
+      ]
+    },
+    "experience": {
+      "title": "Consulting Experience",
+      "description": "Extensive consulting experience across various sectors and development projects.",
+      "items": [
+        "Hydropower projects",
+        "Wind power projects",
+        "Urban development projects",
+        "Water supply and sanitation projects",
+        "Road and transportation infrastructure",
+        "Industrial and economic zone development"
+      ]
     }
   },
   "team": {
     "title": "Our Expert Team",
-    "subtitle": "ISE's team consists of Lao National key staff and consultants with multidisciplinary skills and backgrounds, bringing extensive experience in social, environmental, and natural resource management.",
+    "subtitle": "Meet our diverse team of specialists committed to providing exceptional consulting services for sustainable development projects.",
+    "filters": {
+      "all": "All Team Members",
+      "management": "Management",
+      "environmental": "Environmental Team",
+      "social": "Social Development Team",
+      "resources": "Natural Resources Team"
+    },
+    "values": {
+      "title": "Our Approach & Values",
+      "subtitle": "Our team is guided by key principles that ensure quality, integrity, and excellence in all our consulting services.",
+      "integrity": {
+        "title": "Integrity",
+        "description": "We maintain the highest standards of professional integrity in all our engagements and relationships."
+      },
+      "innovation": {
+        "title": "Innovation",
+        "description": "We embrace innovative approaches to environmental and social challenges for sustainable solutions."
+      },
+      "collaboration": {
+        "title": "Collaboration",
+        "description": "We work closely with clients, communities, and stakeholders to achieve successful project outcomes."
+      },
+      "excellence": {
+        "title": "Excellence",
+        "description": "We strive for excellence in every aspect of our work, delivering high-quality services that exceed expectations."
+      }
+    },
     "joinTeam": {
       "title": "Interested in joining our team?",
-      "description": "We're always looking for talented individuals who are passionate about sustainable development and environmental consulting."
+      "description": "We're always looking for talented individuals who are passionate about sustainable development and environmental consulting.",
+      "cta": "Get in Touch"
     }
   },
   "projects": {
-    "title": "Featured Projects",
-    "subtitle": "Explore our portfolio of impactful projects where we've delivered comprehensive environmental and social consulting services across Lao PDR.",
+    "title": "Our Projects",
+    "subtitle": "Explore our portfolio of impactful projects where we've delivered comprehensive environmental and social consulting services across Lao PDR and beyond.",
     "filters": {
       "all": "All Projects",
       "hydropower": "Hydropower",
       "renewable": "Renewable Energy",
       "urban": "Urban Development",
       "social": "Social Development"
+    },
+    "details": {
+      "overview": "Project Overview",
+      "client": "Client",
+      "location": "Location",
+      "timeline": "Timeline",
+      "challenges": "Challenges",
+      "approach": "Our Approach",
+      "results": "Results",
+      "gallery": "Project Gallery"
+    },
+    "cta": {
+      "title": "Need our expertise for your project?",
+      "description": "Contact our team to discuss how our comprehensive consulting services can help your development project succeed."
     }
   },
   "contact": {
@@ -98,15 +186,49 @@
       "message": "Message",
       "sending": "Sending...",
       "success": "Thank You!",
-      "successMessage": "Your message has been successfully sent. We will get back to you as soon as possible."
+      "successMessage": "Your message has been successfully sent. We will get back to you as soon as possible.",
+      "placeholders": {
+        "name": "Your name",
+        "email": "Your email",
+        "subject": "How can we help you?",
+        "message": "Your message"
+      }
     },
     "info": {
+      "title": "Our Office",
       "address": "Address",
       "phone": "Phone",
       "email": "Email",
       "hours": "Business Hours",
       "workdays": "Monday to Friday: 8:00 AM - 5:00 PM",
-      "weekend": "Saturday to Sunday: Closed"
+      "weekend": "Saturday to Sunday: Closed",
+      "social": "Connect With Us"
+    },
+    "faq": {
+      "title": "Frequently Asked Questions",
+      "subtitle": "Find answers to common questions about our consulting services.",
+      "questions": {
+        "services": {
+          "question": "What services does ISE Consulting provide?",
+          "answer": "ISE Consulting provides a comprehensive range of environmental, natural resource, and social consulting services. This includes environmental impact assessments, natural resource management, social impact assessments, resettlement planning, project monitoring and evaluation, and ESIA/IEE preparation for development projects across various sectors."
+        },
+        "projects": {
+          "question": "What types of projects does ISE typically work on?",
+          "answer": "ISE has extensive experience working on various development projects including hydropower projects, renewable energy initiatives, urban development, infrastructure improvements, industrial and economic zone development, and social development programs. We work with international organizations, government agencies, and private sector clients."
+        },
+        "quality": {
+          "question": "How does ISE ensure quality in its consulting services?",
+          "answer": "ISE ensures quality through our team of highly qualified specialists with diverse expertise and extensive experience. We follow strict methodologies, international standards, and best practices in all our assessments and implementations. Our commitment to integrity, excellence, and continuous improvement drives our quality assurance."
+        },
+        "international": {
+          "question": "Does ISE work internationally or only in Lao PDR?",
+          "answer": "While ISE is based in Lao PDR and has extensive experience across the country, we also work on projects throughout the Greater Mekong Subregion and can provide services internationally, particularly on projects with regional connections or similar environmental and social contexts."
+        },
+        "proposal": {
+          "question": "How can I request a proposal for my project?",
+          "answer": "You can request a proposal by contacting us through our contact form, email, or phone. Please provide details about your project, including its scope, location, timeline, and specific services needed. Our team will review your requirements and respond with a tailored proposal."
+        }
+      }
     }
   },
   "footer": {
@@ -114,6 +236,12 @@
     "quickLinks": "Quick Links",
     "services": "Services",
     "contact": "Contact Us",
-    "copyright": "© {year} ISE Consulting Co., Ltd. All rights reserved."
+    "copyright": "© {year} ISE Consulting Co., Ltd. All rights reserved.",
+    "social": {
+      "facebook": "Follow us on Facebook",
+      "twitter": "Follow us on Twitter",
+      "instagram": "Follow us on Instagram",
+      "linkedin": "Connect on LinkedIn"
+    }
   }
 }
