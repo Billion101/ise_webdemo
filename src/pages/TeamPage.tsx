@@ -4,7 +4,8 @@ import { motion } from 'framer-motion';
 import { useTranslation } from 'react-i18next';
 import teamData from '../data/team.json';
 import images from '../data/images.json';
-
+import projectData from "../data/kanya_project_experience.json";
+import projectDatas from "../data/sengdavanh_project_experience.json"
 // Define the Member interface based on team.json structure
 interface Member {
   id: number;
@@ -214,6 +215,74 @@ const TeamPage = () => {
                   </div>
                 </div>
               </div>
+
+              {/* Additional Section for Member ID 4 */}
+              {selectedMember.id === 4 && (
+<div className="mt-6">
+  <div className="text-center">
+    <h3 className="text-lg font-semibold text-gray-900 mb-4 inline-block">
+      Project Experience
+    </h3>
+  </div>
+  <div className="overflow-x-auto">
+    <table className="min-w-full bg-white border border-gray-200">
+      <thead>
+        <tr>
+          <th className="px-4 py-2 border-b">Project Name</th>
+          <th className="px-4 py-2 border-b">Client</th>
+          <th className="px-4 py-2 border-b">Period</th>
+          <th className="px-4 py-2 border-b">Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        {projectData.map((project, index) => (
+          <tr key={index}>
+            <td className="px-4 py-2 border-b">{project["Project Name"]}</td>
+            <td className="px-4 py-2 border-b">{project.Client}</td>
+            <td className="px-4 py-2 border-b">{project.Period}</td>
+            <td className="px-4 py-2 border-b">{project.Description}</td>
+          </tr>
+        ))}
+      </tbody>
+    </table>
+  </div>
+</div>
+
+              )}
+
+              {/* Additional Section for Member ID 3 */}
+              {selectedMember.id === 3 && (
+<div className="mt-6">
+  <div className="text-center">
+    <h3 className="text-lg font-semibold text-gray-900 mb-4 inline-block">
+      Project Experience
+    </h3>
+  </div>
+  <div className="overflow-x-auto">
+    <table className="min-w-full bg-white border border-gray-200">
+      <thead>
+        <tr>
+          <th className="px-4 py-2 border-b">Project Name</th>
+          <th className="px-4 py-2 border-b">Client</th>
+          <th className="px-4 py-2 border-b">Period</th>
+          <th className="px-4 py-2 border-b">Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        {projectDatas.map((project, index) => (
+          <tr key={index}>
+            <td className="px-4 py-2 border-b">{project["Project Name"]}</td>
+            <td className="px-4 py-2 border-b">{project.Client}</td>
+            <td className="px-4 py-2 border-b">{project.Period}</td>
+            <td className="px-4 py-2 border-b">{project.Description}</td>
+          </tr>
+        ))}
+      </tbody>
+    </table>
+  </div>
+</div>
+
+              )}
             </div>
           </div>
         </div>

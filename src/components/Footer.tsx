@@ -9,7 +9,7 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           <div>
             <div className="flex items-center mb-4">
-              <Globe size={28} className="text-primary-300 mr-2" />
+              {/* <Globe size={28} className="text-primary-300 mr-2" /> */}
               <h3 className="font-serif text-xl font-bold">ISE Consulting</h3>
             </div>
             <p className="text-gray-400 mb-4">
