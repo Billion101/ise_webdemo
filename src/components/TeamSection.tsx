@@ -2,31 +2,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
 import teamData from '../data/team.json';
-import images from '../data/images.json';
-
-const teamMembers = [
-  {
-    id: 1,
-    name: 'Vongchanh Indavong',
-    position: 'Managing Director',
-    image: 'https://images.pexels.com/photos/2381069/pexels-photo-2381069.jpeg?auto=compress&cs=tinysrgb&w=800',
-    description: 'Master\'s Degree in International Development from Ohio University, USA and Bachelor Degree in Civil Engineering. Extensive experience in leading social and environmental management.',
-  },
-  {
-    id: 2,
-    name: 'Surapha Viravong',
-    position: 'Social and Resettlement',
-    image: 'https://images.pexels.com/photos/5717628/pexels-photo-5717628.jpeg?auto=compress&cs=tinysrgb&w=800', 
-    description: 'Master\'s Degree in Business and Administration from University of Technology of Sydney. More than 20 years experience in various sector work.',
-  },
-  {
-    id: 3,
-    name: 'Sengdavanh Phapaseurth',
-    position: 'Environmental',
-    image: 'https://images.pexels.com/photos/7473019/pexels-photo-7473019.jpeg?auto=compress&cs=tinysrgb&w=800',
-    description: 'Master in Environment Engineering and Management. Over 20 years experience in Environmental and Social Impact Assessment.',
-  }
-];
+import imageData from '../data/images.json';
 
 const fadeInUp = {
   hidden: { opacity: 0, y: 20 },
@@ -47,6 +23,7 @@ const TeamSection = () => {
   return (
     <section className="py-20 bg-white">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+        {/* Section Header */}
         <div className="text-center mb-16">
           <motion.h2 
             initial="hidden"
@@ -64,7 +41,7 @@ const TeamSection = () => {
             variants={fadeInUp}
             transition={{ delay: 0.2 }}
             className="h-1 w-20 bg-primary-500 mx-auto mb-6"
-          ></motion.div>
+          />
           <motion.p 
             initial="hidden"
             whileInView="visible"
@@ -77,6 +54,7 @@ const TeamSection = () => {
           </motion.p>
         </div>
 
+        {/* Team Grid */}
         <motion.div 
           initial="hidden"
           whileInView="visible"
@@ -84,28 +62,33 @@ const TeamSection = () => {
           variants={staggerChildren}
           className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8"
         >
-          {teamMembers.map((member) => (
-            <motion.div 
-              key={member.id}
-              variants={fadeInUp}
-              className="bg-gray-50 rounded-lg overflow-hidden shadow-md hover:shadow-xl transition-shadow"
-            >
-              <div className="aspect-w-3 aspect-h-4 relative overflow-hidden">
-                <img 
-                  src={member.image} 
-                  alt={member.name} 
-                  className="object-cover w-full h-64 transition-transform duration-500 hover:scale-110" 
-                />
-              </div>
-              <div className="p-6">
-                <h3 className="text-lg font-semibold text-gray-900">{member.name}</h3>
-                <p className="text-primary-500 font-medium mb-3">{member.position}</p>
-                <p className="text-gray-600 text-sm line-clamp-3">{member.description}</p>
-              </div>
-            </motion.div>
-          ))}
+          {teamData.members.slice(0, 3).map((member) => {
+            const imageUrl = imageData.team.members[member.imageKey as keyof typeof imageData.team.members] || 'https://via.placeholder.com/400x500';
+
+            return (
+              <motion.div 
+                key={member.id}
+                variants={fadeInUp}
+                className="bg-gray-50 rounded-lg overflow-hidden shadow-md hover:shadow-xl transition-shadow"
+              >
+                <div className="aspect-w-3 aspect-h-4 relative overflow-hidden">
+                  <img 
+                    src={imageUrl}
+                    alt={member.name}
+                    className="object-cover w-full h-64 transition-transform duration-500 hover:scale-110" 
+                  />
+                </div>
+                <div className="p-6">
+                  <h3 className="text-lg font-semibold text-gray-900">{member.name}</h3>
+                  <p className="text-primary-500 font-medium mb-3">{member.position}</p>
+                  <p className="text-gray-600 text-sm line-clamp-3">{member.description}</p>
+                </div>
+              </motion.div>
+            );
+          })}
         </motion.div>
 
+        {/* Link Button */}
         <div className="text-center mt-12">
           <Link 
             to="/team" 

@@ -1,33 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
-
-const projects = [
-  {
-    id: 1,
-    title: 'Nam Long 2-3 Hydropower Project',
-    location: 'Luang Nam Tha Province, Lao PDR',
-    image: 'https://images.pexels.com/photos/414837/pexels-photo-414837.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
-    description: 'Review of Initial Environmental Examination (IEE), assessment of resettlement implementation, and development of Livelihood Restoration Plan.',
-    year: '2020-2021',
-  },
-  {
-    id: 2,
-    title: 'Monsoon Wind Power Project',
-    location: 'Sekong Province and Attapeu Province',
-    image: 'https://lh3.googleusercontent.com/d/1pNyKu8vlVVHNOGN3HPtySK2l1kcQFU-Q',
-    description: 'Taking lead on implementation and monitoring of social and environment management for the 600-megawatt wind power project.',
-    year: '2023-2024',
-  },
-  {
-    id: 3,
-    title: 'Greater Mekong Sub-Region Corridor Towns Development',
-    location: 'Thakhek– Khammmouan',
-    image: 'https://images.pexels.com/photos/2219035/pexels-photo-2219035.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
-    description: 'Public consultation, socio-economic surveys, and resettlement planning for urban infrastructure improvements.',
-    year: '2021-2026',
-  },
-];
+import projectsData from '../data/project.json';
 
 const fadeInUp = {
   hidden: { opacity: 0, y: 20 },
@@ -45,6 +19,9 @@ const staggerChildren = {
 };
 
 const ProjectsSection = () => {
+  // Filter only projects with id 1 to 3
+  const filteredProjects = projectsData.filter(project => project.id >= 1 && project.id <= 3);
+
   return (
     <section className="py-20 bg-gray-50">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
@@ -85,7 +62,7 @@ const ProjectsSection = () => {
           variants={staggerChildren}
           className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8"
         >
-          {projects.map((project) => (
+          {filteredProjects.map((project) => (
             <motion.div 
               key={project.id}
               variants={fadeInUp}
