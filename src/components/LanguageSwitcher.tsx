@@ -15,9 +15,9 @@ const languages: Language[] = [
     flag: 'https://flagcdn.com/w40/gb.png'
   },
   {
-    code: 'fr',
-    name: 'Français',
-    flag: 'https://flagcdn.com/w40/fr.png'
+    code: 'la',
+    name: 'Lao',
+    flag: 'https://flagcdn.com/w40/la.png'
   }
 ];
 

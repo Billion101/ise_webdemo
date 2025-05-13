@@ -8,7 +8,6 @@ import TeamPage from './pages/TeamPage';
 import ProjectsPage from './pages/ProjectsPage';
 import ContactPage from './pages/ContactPage';
 import ScrollToTop from './components/ScrollToTop';
-
 function App() {
   return (
     <Router>

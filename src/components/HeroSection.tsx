@@ -12,11 +12,11 @@ const HeroSection = () => {
       <div 
         className="absolute inset-0 z-0 bg-cover bg-center"
         style={{ 
-          backgroundImage: 'url(https://images.pexels.com/photos/9486607/pexels-photo-9486607.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2)',
+          backgroundImage: 'url(https://lh3.googleusercontent.com/d/1FBMkdUuuXtzvc7BPtnxmMmoEn5BqSK_y)',
           backgroundPosition: 'center 30%' 
         }}
       >
-        <div className="absolute inset-0 bg-gradient-to-r from-primary-900/80 to-primary-800/60"></div>
+        <div className="absolute inset-0 bg-gradient-to-r from-primary-900/80 "></div>
       </div>
 
       {/* Hero Content */}
@@ -70,7 +70,7 @@ const HeroSection = () => {
         className="absolute bottom-8 left-1/2 transform -translate-x-1/2 z-10"
       >
         <div className="flex flex-col items-center">
-          <span className="text-white text-sm mb-2">{t('hero.scroll')}</span>
+          <span className="text-white text-sm mb-2">Scroll Down</span>
           <motion.div 
             animate={{ y: [0, 10, 0] }} 
             transition={{ repeat: Infinity, duration: 1.5 }}

@@ -53,7 +53,7 @@ const HomePage = () => {
               variants={fadeIn}
             >
               <img 
-                src="https://images.pexels.com/photos/3184296/pexels-photo-3184296.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" 
+                src="https://lh3.googleusercontent.com/d/1ipj7zHTpHbpjqUDme4-IAz3YneWNKaX_" 
                 alt="Team meeting" 
                 className="rounded-lg shadow-xl w-full h-auto object-cover"
               />
@@ -125,7 +125,7 @@ const HomePage = () => {
       <ServicesSection />
       <TeamSection />
       <ProjectsSection />
-      <ContactForm />
+      {/* <ContactForm /> */}
     </div>
   );
 };

@@ -1,48 +1,47 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
-import { Leaf, Droplets, Users } from 'lucide-react';
+import { Leaf, Droplets, Users,Globe } from 'lucide-react';
 
 const services = [
   {
     id: 1,
     title: 'Environmental Services',
-    description: 'Comprehensive environmental assessments, monitoring, and management plans for development projects.',
-    icon: <Leaf size={48} className="text-primary-500" />,
+    icon: <Leaf size={40} className="text-primary-500" />,
+    description: 'We provide comprehensive environmental services across the project cycle',
     items: [
-      'Initial Environment Examination (IEE)',
-      'Environment Planning and Management',
-      'Environment Impacts Assessment',
-      'Implementation of Environment Monitoring',
-      'Capacity building on environmental planning'
+      'Environmental and Social Impact Assessments (ESIA, EIA, IEE, Due Diligence)',
+      'Environmental Management Planning and Monitoring',
+      'Land Use Planning and Forest Cover Change Detection',
+      'Aerial Mapping, Drone Surveys, and Cadastral Mapping',
+      'Biodiversity and Ecosystem Survey and Assessment',
     ]
   },
   {
     id: 2,
-    title: 'Natural Resources',
-    description: 'Expert management of water resources, climate change adaptation, and land use planning services.',
-    icon: <Droplets size={48} className="text-primary-500" />,
+    title: 'Social Safeguards and Development',
+    icon: <Users size={40} className="text-primary-500" />,
+    description: 'Our social team specializes in inclusive and participatory approaches of',
     items: [
-      'Integrated Water Resource Management',
-      'Disasters Impact and Risk Assessment',
-      'Climate Change Adaptation and Mitigation',
-      'Hydrology-Hydraulic and Meteorology Analysis',
-      'Land Use Planning and Forest Cover Change Detection'
+      'Social Impact Assessments (ESIA, SIA, Due Diligence)',
+      'Resettlement Planning and Community Engagement',
+      'Livelihood Restoration and Community Development',
+      'Ethnic-sensitive and Culturally Appropriate Consultations ',
+      'Gender-sensitive integrated into community engagement and planning',
+      'Socioeconomic Surveys and Data Analysis'
     ]
   },
   {
     id: 3,
-    title: 'Social Development',
-    description: 'Social assessments, resettlement planning, and community development initiatives for project success.',
-    icon: <Users size={48} className="text-primary-500" />,
+    title: 'Capacity Building and Safeguard Systems Strengthening',
+    icon: <Globe size={40} className="text-primary-500" />,
+    description: 'We support institutions and project teams to meet national and international safeguard standards through hands-on learning and tailored guidance.',
     items: [
-      'Social Impacts Assessment',
-      'Implementation of Social Monitoring',
-      'Resettlement planning and implementation',
-      'Social and Economic Survey and data analysis',
-      'Livelihood Improvement and Community Development'
+      'Independent External Environmental and Social Safeguard Monitoring',
+      'Capacity Building on Environmental and Social Safeguards (ADB, WB, IFC, GEF, UNDP standards)',
+      'Coaching and Advisory Support to Set Up Safeguard Units or Teams for specific project.',
     ]
-  }
+  },
 ];
 
 const fadeInUp = {
@@ -121,7 +120,7 @@ const ServicesSection = () => {
                     </li>
                   ))}
                 </ul>
-                <Link 
+                {/* <Link 
                   to="/services" 
                   className="inline-flex items-center text-primary-500 hover:text-primary-700 font-medium"
                 >
@@ -129,7 +128,7 @@ const ServicesSection = () => {
                   <svg className="ml-1 w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
                   </svg>
-                </Link>
+                </Link> */}
               </div>
             </motion.div>
           ))}

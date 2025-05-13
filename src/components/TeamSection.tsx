@@ -1,6 +1,8 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
+import teamData from '../data/team.json';
+import images from '../data/images.json';
 
 const teamMembers = [
   {
@@ -23,13 +25,6 @@ const teamMembers = [
     position: 'Environmental',
     image: 'https://images.pexels.com/photos/7473019/pexels-photo-7473019.jpeg?auto=compress&cs=tinysrgb&w=800',
     description: 'Master in Environment Engineering and Management. Over 20 years experience in Environmental and Social Impact Assessment.',
-  },
-  {
-    id: 4,
-    name: 'Dr. Kanya Souksakoun',
-    position: 'Environmental Specialist',
-    image: 'https://images.pexels.com/photos/5212317/pexels-photo-5212317.jpeg?auto=compress&cs=tinysrgb&w=800',
-    description: 'PhD in Resources, Environment and Development from Crawford School of Public Policy, Australian National University. 15+ years experience.',
   }
 ];
 
@@ -87,7 +82,7 @@ const TeamSection = () => {
           whileInView="visible"
           viewport={{ once: true, margin: "-100px" }}
           variants={staggerChildren}
-          className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8"
+          className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8"
         >
           {teamMembers.map((member) => (
             <motion.div 

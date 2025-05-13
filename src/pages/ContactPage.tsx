@@ -83,7 +83,7 @@ const ContactPage = () => {
                 </li>
               </ul>
               
-              <div className="mt-8">
+              {/* <div className="mt-8">
                 <h4 className="font-semibold text-gray-900 mb-3">Connect With Us</h4>
                 <div className="flex space-x-4">
                   <a href="#" className="bg-gray-200 hover:bg-primary-100 text-gray-700 hover:text-primary-500 p-2 rounded-full transition-colors">
@@ -107,7 +107,7 @@ const ContactPage = () => {
                     </svg>
                   </a>
                 </div>
-              </div>
+              </div> */}
             </motion.div>
             
             <motion.div
@@ -135,10 +135,10 @@ const ContactPage = () => {
       </section>
 
       {/* Contact Form Section */}
-      <ContactForm />
+      {/* <ContactForm /> */}
 
       {/* FAQ Section */}
-      <section className="py-20 bg-gray-50">
+      {/* <section className="py-20 bg-gray-50">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-3xl mx-auto text-center mb-12">
             <motion.h2 
@@ -280,7 +280,7 @@ const ContactPage = () => {
             </motion.div>
           </div>
         </div>
-      </section>
+      </section> */}
     </div>
   );
 };

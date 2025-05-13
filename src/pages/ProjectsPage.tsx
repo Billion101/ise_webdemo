@@ -48,10 +48,10 @@ const projects: Project[] = [
     challenges: 'Implement comprehensive social and environmental management for a large-scale, first-of-its-kind wind power project affecting multiple provinces.',
     solutions: 'Taking lead on the implementation and monitoring of the social and environment management of the project, providing technical advisory on transition to internal management.',
     results: 'Established rigorous environmental monitoring frameworks and social impact mitigation strategies for this pioneering renewable energy project.',
-    image: 'https://images.pexels.com/photos/2121665/pexels-photo-2121665.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+    image: 'https://lh3.googleusercontent.com/d/1pNyKu8vlVVHNOGN3HPtySK2l1kcQFU-Q',
     galleryImages: [
       'https://images.pexels.com/photos/1108271/pexels-photo-1108271.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
-      'https://images.pexels.com/photos/163458/wind-turbine-electricity-eco-environment-163458.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'
+      'https://images.pexels.com/photos/163458/wind-turbine-electricity-eco-environment-163458.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
     ]
   },
   {
@@ -392,7 +392,7 @@ const ProjectsPage = () => {
         </div>
       </section>
 
-      <ContactForm />
+      {/* <ContactForm /> */}
     </div>
   );
 };

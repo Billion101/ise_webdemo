@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
-import ContactForm from '../components/ContactForm';
+// import ContactForm from '../components/ContactForm';
 import { useTranslation } from 'react-i18next';
 import teamData from '../data/team.json';
 import images from '../data/images.json';
@@ -138,7 +138,7 @@ const TeamPage = () => {
                     onClick={() => handleViewProfile(member)}
                     className="inline-flex items-center justify-center w-full px-4 py-2 bg-primary-500 text-white rounded-md hover:bg-primary-600 transition-colors"
                   >
-                    {t('team.viewProfile')}
+                  View Profile
                   </button>
                 </div>
               </motion.div>
@@ -178,7 +178,7 @@ const TeamPage = () => {
                   <div className="space-y-6">
                     <div>
                       <h3 className="text-lg font-semibold text-gray-900 mb-2">
-                        {t('team.modal.education')}
+                       Education
                       </h3>
                       <ul className="space-y-2">
                         {selectedMember.education.map((item: string, index: number) => (
@@ -192,7 +192,8 @@ const TeamPage = () => {
 
                     <div>
                       <h3 className="text-lg font-semibold text-gray-900 mb-2">
-                        {t('team.modal.expertise')}
+                        {/* {t('team.modal.expertise')} */}
+                        expertise
                       </h3>
                       <ul className="space-y-2">
                         {selectedMember.expertise.map((item: string, index: number) => (
@@ -206,7 +207,7 @@ const TeamPage = () => {
 
                     <div>
                       <h3 className="text-lg font-semibold text-gray-900 mb-2">
-                        {t('team.modal.experience')}
+                        Experience
                       </h3>
                       <p className="text-gray-600">{selectedMember.description}</p>
                     </div>
@@ -218,7 +219,7 @@ const TeamPage = () => {
         </div>
       )}
 
-      <ContactForm />
+      {/* <ContactForm /> */}
     </div>
   );
 };

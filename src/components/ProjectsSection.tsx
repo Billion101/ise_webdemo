@@ -15,7 +15,7 @@ const projects = [
     id: 2,
     title: 'Monsoon Wind Power Project',
     location: 'Sekong Province and Attapeu Province',
-    image: 'https://images.pexels.com/photos/2121665/pexels-photo-2121665.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+    image: 'https://lh3.googleusercontent.com/d/1pNyKu8vlVVHNOGN3HPtySK2l1kcQFU-Q',
     description: 'Taking lead on implementation and monitoring of social and environment management for the 600-megawatt wind power project.',
     year: '2023-2024',
   },

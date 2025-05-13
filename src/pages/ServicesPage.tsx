@@ -7,94 +7,86 @@ const services = [
     id: 1,
     title: 'Environmental Services',
     icon: <Leaf size={40} className="text-primary-500" />,
-    description: 'Comprehensive environmental assessment, planning, and monitoring services for development projects.',
+    description: 'We provide comprehensive environmental services across the project cycle',
     items: [
-      'Initial Environment Examination (IEE) of development projects',
-      'Environment Planning and Management',
-      'Environment Impacts Assessment of development projects',
-      'Implementation of Environment Monitoring in all sector works',
-      'Capacity building on environmental planning and monitoring',
-      'Waste Management (Project and community waste)'
+      'Environmental and Social Impact Assessments (ESIA, EIA, IEE, Due Diligence)',
+      'Environmental Management Planning and Monitoring',
+      'Land Use Planning and Forest Cover Change Detection',
+      'Aerial Mapping, Drone Surveys, and Cadastral Mapping',
+      'Biodiversity and Ecosystem Survey and Assessment',
     ]
   },
   {
     id: 2,
-    title: 'Natural Resources',
-    icon: <Droplets size={40} className="text-primary-500" />,
-    description: 'Integrated management of water, land, and forest resources with climate change adaptation strategies.',
+    title: 'Social Safeguards and Development',
+    icon: <Users size={40} className="text-primary-500" />,
+    description: 'Our social team specializes in inclusive and participatory approaches of',
     items: [
-      'Integrated Water Resource Management and Planning',
-      'Disasters Impact and Risk Assessment',
-      'Disaster Risk and Reduction Management Planning',
-      'Climate Change Adaptation and Mitigation',
-      'Hydrology-Hydraulic and Meteorology Analysis',
-      'Dam safety and emergency action plan',
-      'Land Use Planning and Forest Cover Change Detection',
-      'Aerial Mapping and Remote Sensing Technology, Drone and Cadastral Survey',
-      'Capacity building on natural resources management and monitoring planning'
+      'Social Impact Assessments (ESIA, SIA, Due Diligence)',
+      'Resettlement Planning and Community Engagement',
+      'Livelihood Restoration and Community Development',
+      'Ethnic-sensitive and Culturally Appropriate Consultations ',
+      'Gender-sensitive integrated into community engagement and planning',
+      'Socioeconomic Surveys and Data Analysis'
     ]
   },
   {
     id: 3,
-    title: 'Social Development',
-    icon: <Users size={40} className="text-primary-500" />,
-    description: 'Social impact assessment, community development, and resettlement planning for project success.',
-    items: [
-      'Social Impacts Assessment of development projects',
-      'Implementation of Social Monitoring in all sector works',
-      'Resettlement planning and implementation',
-      'Social and Economic Survey and data analysis',
-      'Livelihood Improvement and Community Development',
-      'Independent External social and resettlement Monitoring',
-      'Project Evaluation Service',
-      'Capacity building on social safeguard planning and monitoring'
-    ]
-  },
-  {
-    id: 4,
-    title: 'ESIA and IEE Preparation',
-    icon: <FileCheck size={40} className="text-primary-500" />,
-    description: 'Expert preparation of Environmental and Social Impact Assessments and Initial Environmental Examinations.',
-    items: [
-      'Comprehensive environmental and social baseline studies',
-      'Stakeholder consultation and engagement',
-      'Impact identification and assessment',
-      'Mitigation measures development',
-      'Environmental and Social Management Plans',
-      'Compliance with national and international standards',
-      'Monitoring plan development'
-    ]
-  },
-  {
-    id: 5,
-    title: 'Project Monitoring & Evaluation',
+    title: 'Capacity Building and Safeguard Systems Strengthening',
     icon: <Globe size={40} className="text-primary-500" />,
-    description: 'Independent monitoring and evaluation services for development projects.',
+    description: 'We support institutions and project teams to meet national and international safeguard standards through hands-on learning and tailored guidance.',
     items: [
-      'Independent External Social Safeguard monitoring',
-      'Project implementation process evaluation',
-      'Resettlement Plan implementation monitoring',
-      'Public consultation and awareness assessment',
-      'Compensation payment verification',
-      'Grievance resolution support',
-      'Technical expertise for Resettlement Committees'
+      'Independent External Environmental and Social Safeguard Monitoring',
+      'Capacity Building on Environmental and Social Safeguards (ADB, WB, IFC, GEF, UNDP standards)',
+      'Coaching and Advisory Support to Set Up Safeguard Units or Teams for specific project.',
     ]
   },
-  {
-    id: 6,
-    title: 'Consulting Experience',
-    icon: <Building size={40} className="text-primary-500" />,
-    description: 'Extensive consulting experience across various sectors and development projects.',
-    items: [
-      'Hydropower projects (Nam Theun 2, Theun-Hinboun, Nam Ngiep 1)',
-      'Wind power projects (Monsoon Wind Power Project)',
-      'Urban development projects (Greater Mekong Sub-region Corridor Towns)',
-      'Water supply and sanitation projects',
-      'Road and transportation infrastructure projects',
-      'Industrial and economic zone development',
-      'ADB and World Bank funded projects'
-    ]
-  }
+  
+  // {
+  //   id: 4,
+  //   title: 'ESIA and IEE Preparation',
+  //   icon: <FileCheck size={40} className="text-primary-500" />,
+  //   description: 'Expert preparation of Environmental and Social Impact Assessments and Initial Environmental Examinations.',
+  //   items: [
+  //     'Comprehensive environmental and social baseline studies',
+  //     'Stakeholder consultation and engagement',
+  //     'Impact identification and assessment',
+  //     'Mitigation measures development',
+  //     'Environmental and Social Management Plans',
+  //     'Compliance with national and international standards',
+  //     'Monitoring plan development'
+  //   ]
+  // },
+  // {
+  //   id: 5,
+  //   title: 'Project Monitoring & Evaluation',
+  //   icon: <Globe size={40} className="text-primary-500" />,
+  //   description: 'Independent monitoring and evaluation services for development projects.',
+  //   items: [
+  //     'Independent External Social Safeguard monitoring',
+  //     'Project implementation process evaluation',
+  //     'Resettlement Plan implementation monitoring',
+  //     'Public consultation and awareness assessment',
+  //     'Compensation payment verification',
+  //     'Grievance resolution support',
+  //     'Technical expertise for Resettlement Committees'
+  //   ]
+  // },
+  // {
+  //   id: 6,
+  //   title: 'Consulting Experience',
+  //   icon: <Building size={40} className="text-primary-500" />,
+  //   description: 'Extensive consulting experience across various sectors and development projects.',
+  //   items: [
+  //     'Hydropower projects (Nam Theun 2, Theun-Hinboun, Nam Ngiep 1)',
+  //     'Wind power projects (Monsoon Wind Power Project)',
+  //     'Urban development projects (Greater Mekong Sub-region Corridor Towns)',
+  //     'Water supply and sanitation projects',
+  //     'Road and transportation infrastructure projects',
+  //     'Industrial and economic zone development',
+  //     'ADB and World Bank funded projects'
+  //   ]
+  // }
 ];
 
 const fadeInUp = {

@@ -1,0 +1,104 @@
+[
+  {
+    "id": 1,
+    "title": "Nam Long 2-3 Hydropower Project",
+    "location": "Luang Nam Tha Province, Lao PDR",
+    "category": "hydropower",
+    "client": "Nam Long 2 Hydropower Company Ltd",
+    "year": "2020-2021",
+    "description": "The Nam Long 2 Hydropower Project is a small hydro development scheme located at Long District in Luangnamtha Province with a catchment area of 156 km² and an installed capacity of 9.5 MW.",
+    "challenges": "Assess environmental impacts and develop sustainable resettlement solutions for affected communities while ensuring compliance with regulations.",
+    "solutions": "Review of Initial Environmental Examination (IEE), assessment of resettlement implementation for Nam Long 2 Resettlement Village, and development of a comprehensive Livelihood Restoration Plan.",
+    "results": "Successfully implemented resettlement plan for affected communities with minimal environmental impact and established sustainable livelihood options.",
+    "image": "https://images.pexels.com/photos/414837/pexels-photo-414837.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    "galleryImages": [
+      "https://images.pexels.com/photos/1578749/pexels-photo-1578749.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "https://images.pexels.com/photos/4173198/pexels-photo-4173198.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Monsoon Wind Power Project",
+    "location": "Sekong Province and Attapeu Province",
+    "category": "renewable",
+    "client": "Monsoon Wind Power Company Limited",
+    "year": "2023-2024",
+    "description": "The project entails a wind power project with a contracted capacity of 600-megawatt (MW) to be constructed in Lao PDR that will export and sell electricity into neighboring Viet Nam. It will be the first wind power project in Lao PDR, the largest in Southeast Asia, and the first cross-border in Asia.",
+    "challenges": "Implement comprehensive social and environmental management for a large-scale, first-of-its-kind wind power project affecting multiple provinces.",
+    "solutions": "Taking lead on the implementation and monitoring of the social and environment management of the project, providing technical advisory on transition to internal management.",
+    "results": "Established rigorous environmental monitoring frameworks and social impact mitigation strategies for this pioneering renewable energy project.",
+    "image": "https://lh3.googleusercontent.com/d/1pNyKu8vlVVHNOGN3HPtySK2l1kcQFU-Q",
+    "galleryImages": [
+      "https://images.pexels.com/photos/1108271/pexels-photo-1108271.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "https://images.pexels.com/photos/163458/wind-turbine-electricity-eco-environment-163458.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Greater Mekong Sub-Region Corridor Towns Development",
+    "location": "Thakhek– Khammmouan",
+    "category": "urban",
+    "client": "Asian Development Bank (ADB)",
+    "year": "2021-2026",
+    "description": "The Fourth Greater Mekong Subregion Corridor Towns Development Project (GMS-4) aims to improve urban services and competitiveness in the participating towns. The project consists of improvement of urban infrastructure such as drainage, sanitation, solid waste management, and urban roads.",
+    "challenges": "Balance urban development needs with social and environmental considerations in rapidly developing corridor towns.",
+    "solutions": "Conducted public consultation, socio-economic surveys, and detailed measurement surveys for affected households. Provided technical support on social implementation and grievances while building capacity on social safeguards.",
+    "results": "Developed comprehensive data sets for compensation and resettlement plans that minimize negative social impacts while supporting urban development goals.",
+    "image": "https://images.pexels.com/photos/2219035/pexels-photo-2219035.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    "galleryImages": [
+      "https://images.pexels.com/photos/599722/pexels-photo-599722.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "https://images.pexels.com/photos/12166533/pexels-photo-12166533.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Building Resilience and Reducing Rural Poverty Project",
+    "location": "Sayaboury, Launbgphrabang, Khammmouan, Savannakhet Provinces",
+    "category": "social",
+    "client": "Asian Development Bank (ADB)",
+    "year": "2024-2025",
+    "description": "The proposed project will expand a targeted, nutrition-sensitive conditional cash transfer (CCT) program to up to 30,000 poor households in areas with high rates of poverty, malnutrition, and climate risks, and make social protection systems more adaptive and shock-responsive.",
+    "challenges": "Address multiple facets of poverty in rural communities while building climate resilience and improving food security.",
+    "solutions": "Conduct consultation meetings with target communities and stakeholders, develop Indigenous People Framework, and provide technical support on social safeguard implementation.",
+    "results": "Created comprehensive frameworks and guidelines for a poverty graduation program that empowers women and builds resilience to health, economic, and climate vulnerabilities.",
+    "image": "https://images.pexels.com/photos/2387343/pexels-photo-2387343.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    "galleryImages": [
+      "https://images.pexels.com/photos/1888652/pexels-photo-1888652.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "https://images.pexels.com/photos/4498361/pexels-photo-4498361.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Theun-Hinboun Hydropower Project",
+    "location": "Khammouan and Bolikhamxay Province",
+    "category": "hydropower",
+    "client": "Theun-Hinboun Power Company",
+    "year": "1998-2000",
+    "description": "Environmental monitoring during the construction period for the Theun-Hinboun Hydropower Project, one of the significant hydropower developments in Lao PDR.",
+    "challenges": "Ensure environmental protection during construction activities in ecologically sensitive areas.",
+    "solutions": "Implemented comprehensive environmental monitoring programs, including water quality monitoring, biodiversity protection, and waste management systems.",
+    "results": "Successfully maintained environmental standards throughout construction, protecting water quality and biodiversity in the project area.",
+    "image": "https://images.pexels.com/photos/2040756/pexels-photo-2040756.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    "galleryImages": [
+      "https://images.pexels.com/photos/1025562/pexels-photo-1025562.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "https://images.pexels.com/photos/221035/pexels-photo-221035.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Nam Long Upper Reservoir Hydropower Study",
+    "location": "Luang Nam Tha Province, Lao PDR",
+    "category": "hydropower",
+    "client": "Nam Long 2 Hydropower Company Ltd",
+    "year": "2021",
+    "description": "The Nam Long Upper Reservoir Hydropower Project is located about 25 km from Long district town, Luang Namtha Province. It’s under feasibility for regulating water for the Nam Long 2 and downstream dams.",
+    "challenges": "Assess potential social and environmental impacts of a new hydropower reservoir before implementation.",
+    "solutions": "Conducted social-economic surveys of potentially affected households, asset surveys, land use assessments, and feasibility studies of potential resettlement sites.",
+    "results": "Provided comprehensive data and analysis to support decision-making on project viability and mitigation measures.",
+    "image": "https://images.pexels.com/photos/4946756/pexels-photo-4946756.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    "galleryImages": [
+      "https://images.pexels.com/photos/13876470/pexels-photo-13876470.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      "https://images.pexels.com/photos/5946424/pexels-photo-5946424.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+    ]
+  }
+]
